@@ -1,0 +1,70 @@
+.about-content {
+  display: grid;
+  gap: 4rem;
+}
+
+.about-text {
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.about-text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.principle-card {
+  background-color: var(--bg-card);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.principle-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.principle-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+}
+
+.principle-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.principle-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 1024px) {
+  .about-content {
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+  }
+}
