@@ -155,8 +155,17 @@
   background-color: var(--accent-hover);
 }
 
+.more-projects-btn{
+  margin-top: 3rem;
+  align-self: center;
+  /* margin-left: 500px; */
+  
+}
+
 @media (min-width: 1024px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+
 }

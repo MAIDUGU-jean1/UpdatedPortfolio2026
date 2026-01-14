@@ -150,6 +150,10 @@ const Projects = () => {
             ))}
           </div>
         </motion.div>
+        <a href="https://github.com/MAIDUGU-jean1" className="btn btn-outline more-projects-btn">
+          <ExternalLink size={20} className="btn-icon" />
+          View All Projects
+        </a>
       </div>
     </section>
   );

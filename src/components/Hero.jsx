@@ -84,7 +84,7 @@ const Hero = () => {
             </button>
 
             {/* CV Download Button - Primary call to action */}
-            <button onClick={handleDownloadCV} className="btn btn-cv">
+            <button onClick={()=>{window.alert('Still working on this!')}} className="btn btn-cv">
               <Download size={20} className="btn-icon" />
               Download CV
             </button>
